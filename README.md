@@ -10,6 +10,8 @@ This project was completed as part of a University of Arkansas Data Science prac
 
 Retail stores must allocate limited fixture space across year-round, seasonal, and changing product categories. The challenge is to determine how much space should remain stable versus flexible while still responding to demand, store-level differences, and operational constraints.
 
+The project focused on using historical fixture behavior and demand signals to support better space allocation recommendations.
+
 ## My Contribution
 
 - Developed the optimization model used to generate fixture allocation recommendations.
@@ -24,14 +26,46 @@ Retail stores must allocate limited fixture space across year-round, seasonal, a
 - Combined fixture capacity estimates with demand signals.
 - Formulated allocation decisions as a constrained optimization problem.
 - Generated recommendations that balanced demand prioritization with operational feasibility.
+- Summarized results through presentation visuals, report sections, and stakeholder-facing insights.
+
+## Optimization Framing
+
+**Decision Variable:**  
+Recommended fixture allocation by store, product subcategory, and planning period.
+
+**Objective:**  
+Prioritize fixture space toward higher-demand categories while respecting available capacity.
+
+**Core Constraints:**
+
+- Store-level fixture capacity
+- Stable fixture allocation requirements
+- Flexible fixture availability
+- Product subcategory feasibility
+- Demand-based prioritization logic
 
 ## Tools
 
-R · data.table · lpSolve · Excel · PowerPoint · business reporting
+R · data.table · lpSolve · Excel · PowerPoint · Business Reporting · Data Visualization
 
 ## Results
 
 - Produced fixture allocation recommendations across store and product subcategory combinations.
 - Identified opportunities to better balance stable year-round space with flexible seasonal/clearance space.
 - Translated optimization outputs into executive-facing recommendations.
+- Helped deliver an award-winning final practicum presentation and report.
 - Awarded **Best Overall Project** in the senior practicum.
+
+## Repository Contents
+
+```text
+retail-fixture-optimization-case-study/
+├── README.md
+├── report/
+│   └── retail-fixture-optimization-report.pdf
+├── presentation/
+│   └── retail-fixture-optimization-presentation.pdf
+├── visuals/
+│   └── selected-project-figures
+└── methodology/
+    └── optimization-model-summary.md
